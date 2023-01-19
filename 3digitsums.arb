@@ -1,0 +1,13 @@
+
+
+while true
+   num1 = rand(900) + 100
+   num2 = rand(900) + 100
+   print("what is the sum of: #{num1} and #{num2}? ")
+   answer = gets
+   if answer.to_i == (num1 + num2)
+    print("correct!\n\n")
+   else
+    print("the sum of: #{num1} and #{num2} is #{answer} ")
+  end
+end
