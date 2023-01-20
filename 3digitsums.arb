@@ -8,6 +8,6 @@ while true
    if answer.to_i == (num1 + num2)
     print("correct!\n\n")
    else
-    print("the sum of: #{num1} and #{num2} is #{answer} ")
+    print("the sum of: #{num1} + #{num2} is #{num1 + num2} ")
   end
 end
